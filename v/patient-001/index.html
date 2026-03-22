@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyQR MedicHub | Emergency Profile</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f4f7f9; margin: 0; padding: 20px; color: #333; }
+        .card { max-width: 400px; margin: auto; background: white; border-radius: 15px; box-shadow: 0 10px 25px rgba(0,0,0,0.1); overflow: hidden; border-top: 8px solid #d32f2f; }
+        .header { background: #d32f2f; color: white; padding: 20px; text-align: center; }
+        .header h1 { margin: 0; font-size: 1.2rem; text-transform: uppercase; letter-spacing: 1px; }
+        .profile-section { padding: 20px; border-bottom: 1px solid #eee; }
+        .label { font-size: 0.8rem; color: #777; text-transform: uppercase; font-weight: bold; }
+        .value { font-size: 1.1rem; margin-top: 5px; font-weight: 600; }
+        .alert-box { background: #fff5f5; border: 1px solid #feb2b2; padding: 15px; border-radius: 8px; margin-top: 10px; }
+        .alert-text { color: #c53030; font-weight: bold; }
+        .footer { padding: 20px; text-align: center; font-size: 0.9rem; color: #999; }
+        .btn-call { display: block; background: #002D62; color: white; text-decoration: none; padding: 15px; border-radius: 8px; font-weight: bold; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>Emergency Medical Profile</h1>
+        </div>
+        
+        <div class="profile-section">
+            <div class="label">Patient Name</div>
+            <div class="value">S. T. Machengs (Demo)</div>
+        </div>
+
+        <div class="profile-section">
+            <div style="display: flex; justify-content: space-between;">
+                <div>
+                    <div class="label">Blood Type</div>
+                    <div class="value" style="color: #d32f2f;">O Positive (O+)</div>
+                </div>
+                <div>
+                    <div class="label">D.O.B</div>
+                    <div class="value">14 May 1995</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="profile-section">
+            <div class="label">Critical Allergies</div>
+            <div class="alert-box">
+                <span class="alert-text">⚠️ PENICILLIN, PEANUTS</span>
+            </div>
+        </div>
+
+        <div class="profile-section">
+            <div class="label">Chronic Conditions</div>
+            <div class="value">Type 1 Diabetes</div>
+        </div>
+
+        <div class="profile-section" style="text-align: center;">
+            <a href="tel:+263770000000" class="btn-call">📞 CALL NEXT OF KIN</a>
+        </div>
+
+        <div class="footer">
+            Powered by <strong>MyQR MedicHub</strong><br>
+            Secure ID: #MED-001-ZIM
+        </div>
+    </div>
+</body>
+</html>

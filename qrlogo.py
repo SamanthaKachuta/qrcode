@@ -1,7 +1,7 @@
 import segno
 
 # 1. Your Live URL (Make sure this is your Netlify/Vercel link!)
-link = "https://your-medichub-demo.vercel.app/v/patient-001"
+link = "https://your-medichub-demo.vercel.app"
 
 # 2. Generate a "Clean" QR
 # Error='m' makes the pattern less dense and cleaner for printing
